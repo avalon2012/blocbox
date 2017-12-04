@@ -259,6 +259,18 @@
  .testimonials ul li {
    list-style-type: none;
  }
+
+.seconditem {
+
+    height: 20;
+
+}
+
+.fourthitem {
+
+ height: 0;
+}
+
  .testimonials blockquote {
    color:#FFFFFF;
    text-align: left;
