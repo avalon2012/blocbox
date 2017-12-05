@@ -260,16 +260,13 @@
    list-style-type: none;
  }
 
-.seconditem {
+.secondItem {
 
-    height: 20;
+    padding-top: 20px;
 
 }
 
-.fourthitem {
 
- height: 0;
-}
 
  .testimonials blockquote {
    color:#FFFFFF;
