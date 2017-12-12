@@ -11,8 +11,6 @@
 .dropit {
     list-style: none;
 	padding: 0;
-
-
 margin: 15px 0 0;
   float:right;
   display:inline-block;
@@ -33,6 +31,28 @@ margin: 15px 0 0;
   padding: 20px;
   margin: 20px 0 0;
 }
+
+
+
+.menu-bottom.dropit .dropit-submenu {
+    top: auto;
+    left: auto;
+    bottom: 100%;
+    width: 175px;
+}
+    .menu-bottom.dropit .dropit-submenu a {
+        text-align: left;
+        float: left;
+    }
+.menu-bottom.dropit .dropit-open .dropit-submenu:after {
+    border-width: 8px 8px 0;
+    top: auto;
+    bottom: -8px;
+}
+
+
+
+
 .dropit .dropit-open .dropit-submenu { display: block; 
    background: #FFFFFF;
    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.30);
@@ -64,3 +84,10 @@ margin: 15px 0 0;
   font-family: "Lato", Helvetica, Arial, sans-serif;
   font-weight:100;
  }
+
+
+
+
+
+
+
